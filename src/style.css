@@ -37,8 +37,8 @@ p {
   color: white;
   border-radius: 50px;
 }
-.btn{
-    transition: ease-in-out 15ms;
+.btn {
+  transition: ease-in-out 15ms;
 }
 
 .hero p {
@@ -53,11 +53,25 @@ p {
   line-height: 2;
 }
 
-.yogurt-app{
-    border: 1px solid var(--tertiary-color);
-    padding: 15px 30px;
+.yogurt-app {
+  border: 1px solid var(--tertiary-color);
+  padding: 15px 30px;
   line-height: 27px;
   font-size: 18px;
   border-radius: 50px;
   color: var(--tertiary-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 576px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h2 {
+    font-size: 44px;
+  }
 }
