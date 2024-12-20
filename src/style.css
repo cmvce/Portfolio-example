@@ -20,12 +20,12 @@ p {
   font-family: var(--secondary-font);
   font-weight: normal;
   margin: 0;
-  opacity: 70%;
+
   line-height: 30px;
 }
 .hero {
   text-align: center;
-  background-color: rgba(34, 74, 34, 0.545) ;
+  background-color: rgba(34, 74, 34, 0.545);
   padding: 160px 20px;
   margin: 0 auto;
 }
@@ -53,7 +53,7 @@ p {
   line-height: 2;
 }
 
-.yogurt-app {
+.btn-project-outline {
   border: 1px solid var(--tertiary-color);
   padding: 15px 30px;
   line-height: 27px;
@@ -65,6 +65,9 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+div p {
+  opacity: 70%;
+}
 
 @media (max-width: 576px) {
   .project-description {
@@ -72,6 +75,13 @@ p {
     text-align: center;
   }
   h2 {
-    font-size: 44px;
+    font-size: 24px;
   }
+  h1 {
+    font-size: 48px;
+  }
+  .hero p{
+    font-size: 24px;
+  }
+
 }
