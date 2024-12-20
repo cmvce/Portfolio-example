@@ -69,6 +69,11 @@ div p {
   opacity: 70%;
 }
 
+.navbar {
+  background-color: rgba(34, 74, 34, 0.786);
+  color: white;
+}
+
 @media (max-width: 991px) {
   .project-description {
     padding: 0;
