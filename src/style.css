@@ -25,7 +25,7 @@ p {
 }
 .hero {
   text-align: center;
-  background-color: white;
+  background-color: rgba(34, 74, 34, 0.545) ;
   padding: 160px 20px;
   margin: 0 auto;
 }
