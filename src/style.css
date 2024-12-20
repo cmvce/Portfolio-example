@@ -14,6 +14,7 @@ h1 {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 96px;
+  
 }
 
 p {
@@ -22,6 +23,9 @@ p {
   margin: 0;
 
   line-height: 30px;
+}
+.hero h1{
+  line-height: 1.2;
 }
 .hero {
   text-align: center;
@@ -73,7 +77,40 @@ div p {
   background-color: rgba(34, 74, 34, 0.786);
   color: white;
 }
+.about-section {
+  padding: 120px 60px;
+  text-align: center;
+}
 
+.about-button {
+  padding: 15px 30px;
+  line-height: 27px;
+  font-size: 18px;
+  background-color: rgba(34, 74, 34, 0.786);
+  color: white;
+  border-radius: 50px;
+}
+
+.about-section-content h1 {
+  font-size: 48px;
+  font-family: var(--main-font);
+}
+.about-section-content h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+}
+.about-section-content p {
+  font-size: 14px;
+  opacity: 100%;
+  font-family: var(--secondary-font);
+}
+
+.portrait {
+  border-radius: 10%;
+  max-width: 400px;
+}
 @media (max-width: 991px) {
   .project-description {
     padding: 0;
@@ -91,13 +128,9 @@ div p {
     font-size: 36px;
   }
 
-  div p{
+  div p {
     font-family: var(--secondary-font);
   }
-
-  
-
-  
 
   .btn-project-outline {
     border: 1px solid var(--tertiary-color);
@@ -108,20 +141,34 @@ div p {
     color: var(--tertiary-color);
     text-align: center;
   }
- 
- 
 
-  
-.btn-branding {
-  padding: 15px 70px;
-  line-height: 27px;
-  font-size: 18px;
-  background-color: rgba(34, 74, 34, 0.786);
-  color: white;
-  border-radius: 50px;
-  
+  .btn-branding {
+    padding: 15px 70px;
+    line-height: 27px;
+    font-size: 18px;
+    background-color: rgba(34, 74, 34, 0.786);
+    color: white;
+    border-radius: 50px;
+  }
+  .about-section-content h1 {
+    font-size: 44px;
+    font-family: var(--main-font);
+    line-height: 1;
+  }
+  .about-section-content h2 {
+    font-size: 20px;
+
+    font-weight: bold;
+    font-family: var(--secondary-font);
+  }
+  .about-section-content p {
+    font-size: 14px;
+    opacity: 80%;
+    font-family: var(--secondary-font);
+  }
+
+  .portrait {
+    border-radius: 10%;
+    max-width: 80%;
+  }
 }
- 
-}
-
-
