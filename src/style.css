@@ -69,19 +69,54 @@ div p {
   opacity: 70%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
   .project-description {
     padding: 0;
     text-align: center;
+    font-family: var(--main-font);
   }
   h2 {
-    font-size: 24px;
+    font-size: 44px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 50px;
+    line-height: 2;
   }
-  .hero p{
-    font-size: 24px;
+  .hero p {
+    font-size: 36px;
   }
 
+  div p{
+    font-family: var(--secondary-font);
+  }
+
+  
+
+  
+
+  .btn-project-outline {
+    border: 1px solid var(--tertiary-color);
+    padding: 20px 70px;
+    line-height: 27px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: var(--tertiary-color);
+    text-align: center;
+  }
+ 
+ 
+
+  
+.btn-branding {
+  padding: 15px 70px;
+  line-height: 27px;
+  font-size: 18px;
+  background-color: rgba(34, 74, 34, 0.786);
+  color: white;
+  border-radius: 50px;
+  
 }
+ 
+}
+
+
