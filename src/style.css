@@ -90,21 +90,32 @@ div p {
   color: white;
   border-radius: 50px;
 }
-
-.about-section-content h1 {
+.content{
+  text-align: center;
+}
+.content  h1 {
   font-size: 48px;
   font-family: var(--main-font);
 }
-.about-section-content h2 {
+.content h2 {
   font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
   font-family: var(--secondary-font);
 }
-.about-section-content p {
+.content p {
   font-size: 14px;
   opacity: 100%;
   font-family: var(--secondary-font);
+  line-height: 1.5;
+  
+}
+
+.content h3{
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  line-height: 1;
+  margin: 20px 0 0;
 }
 
 .portrait {
@@ -150,18 +161,18 @@ div p {
     color: white;
     border-radius: 50px;
   }
-  .about-section-content h1 {
+  .content-container h1 {
     font-size: 44px;
     font-family: var(--main-font);
     line-height: 1;
   }
-  .about-section-content h2 {
+  .content-container h2 {
     font-size: 20px;
 
     font-weight: bold;
     font-family: var(--secondary-font);
   }
-  .about-section-content p {
+  .content-container p {
     font-size: 14px;
     opacity: 80%;
     font-family: var(--secondary-font);
