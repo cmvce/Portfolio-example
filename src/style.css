@@ -17,6 +17,11 @@ h1 {
   
 }
 
+h4{
+  font-size: 48px;
+  font-family: var(--main-font);
+font-weight: bold;}
+
 p {
   font-family: var(--secondary-font);
   font-weight: normal;
@@ -122,6 +127,50 @@ div p {
   border-radius: 10%;
   max-width: 400px;
 }
+
+footer{
+  margin: 60px 0;
+}
+
+footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+footer .email-link:hover{
+  color: var(--secondary-color);
+}
+
+footer .social-links a{
+  margin: 0 20px;
+  color: var(--tertiary-color);
+  background: var(--secondary-color);
+padding: 10px 14px;
+border-radius: 50%;
+font-size: 18px;
+
+}
+footer .social-links a:hover{
+  color: white;
+  background: var(--tertiary-color);
+}
+
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+
+
+
 @media (max-width: 991px) {
   .project-description {
     padding: 0;
@@ -134,6 +183,11 @@ div p {
   h1 {
     font-size: 50px;
     line-height: 2;
+  }
+
+  h4{
+    font-size: 26px;
+
   }
   .hero p {
     font-size: 36px;
@@ -154,12 +208,13 @@ div p {
   }
 
   .btn-branding {
-    padding: 15px 70px;
+    padding: 15px 50px;
     line-height: 27px;
     font-size: 18px;
     background-color: rgba(34, 74, 34, 0.786);
     color: white;
     border-radius: 50px;
+    margin-bottom: 15px;
   }
   .content-container h1 {
     font-size: 44px;
@@ -182,4 +237,45 @@ div p {
     border-radius: 10%;
     max-width: 80%;
   }
+  footer{
+    margin: 60px 0;
+    
+  }
+  
+  footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  
+  }
+  
+  footer .email-link:hover{
+    color: var(--secondary-color);
+  }
+  
+  footer .social-links a{
+    margin: 0 20px;
+    color: var(--tertiary-color);
+    background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  
+  }
+  footer .social-links a:hover{
+    color: white;
+    background: var(--tertiary-color);
+  }
+  footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  footer .contact-box p {
+    margin: 0;
+  }
+  
 }
+
+
