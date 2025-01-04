@@ -35,7 +35,7 @@ p {
 .hero {
   text-align: center;
   background-color: rgba(34, 74, 34, 0.545);
-  padding: 160px 20px;
+  padding: 80px 20px;
   margin: 0 auto;
 }
 .btn-branding {
@@ -83,7 +83,7 @@ div p {
   color: white;
 }
 .content-container {
-  padding: 120px 60px;
+  padding: 60px 60px;
   text-align: center;
 }
 
